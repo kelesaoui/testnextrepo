@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -25,6 +25,22 @@ export default function Home() {
               priority
             />
           </a>
+          et ça
+          <Image
+            src="https://auseaacmpstorageaccount.blob.core.windows.net/facility-image/bogota.tif"
+            alt="other"
+            width={400}
+            height={400}
+            priority
+          />
+          png
+          <Image
+            src="https://auseaacmpstorageaccount.blob.core.windows.net/facility-image/bogota.png"
+            alt="png"
+            width={400}
+            height={400}
+            priority
+          />
         </div>
       </div>
 
@@ -91,5 +107,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
