@@ -25,6 +25,13 @@ export default function Home() {
               priority
             />
           </a>
+local tiff   <Image
+            src="/bogota.tiff"
+            alt="tifff"
+            width={400}
+            height={400}
+            priority
+          />
           et ça
           <Image
             src="https://auseaacmpstorageaccount.blob.core.windows.net/facility-image/bogota.tif"
